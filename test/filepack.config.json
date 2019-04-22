@@ -1,0 +1,21 @@
+{
+  "entry": {
+    "output.js": [
+      "src/file1.js",
+      "src/file2.js",
+      "src/file3.js",
+      "src/file4.js",
+      "src/file5.js"
+    ],
+    "output_reversed.js": [
+      "src/file5.js",
+      "src/file4.js",
+      "src/file3.js",
+      "src/file2.js",
+      "src/file1.js"
+    ]
+  },
+  "output": {
+    "path": "dist"
+  }
+}

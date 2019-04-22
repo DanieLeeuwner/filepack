@@ -1,11 +1,24 @@
 {
   "name": "filepack",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Pack files into a single output file",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./lib/filepack.js",
+  "bin": {
+    "filepack": "./bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanieLeeuwner/filepack.git"
+  },
+  "keywords": [
+    "filepack",
+    "pack",
+    "files"
+  ],
   "author": "Danie Leeuwner",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanieLeeuwner/filepack/issues"
+  },
+  "homepage": "https://github.com/DanieLeeuwner/filepack#readme"
 }
