@@ -1,7 +1,7 @@
 {
   "name": "filepack",
-  "version": "0.0.1",
-  "description": "Pack files into a single output file",
+  "version": "0.0.2",
+  "description": "Bundle files into a single output file, unaltered and in a specified order",
   "main": "./lib/filepack.js",
   "bin": {
     "filepack": "./bin/index.js"
